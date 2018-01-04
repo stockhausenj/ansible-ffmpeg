@@ -1,0 +1,9 @@
+---
+- apt_repository:
+    repo: "{{ ffmpeg_repo }}"
+    state: present
+- name: Install Latest FFMPEG Package
+  apt:
+    name: ffmpeg
+    state: latest
+    update_cache: yes

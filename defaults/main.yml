@@ -1,0 +1,3 @@
+---
+# defaults file for ffmpeg
+ffmpeg_repo: 'ppa:jonathonf/ffmpeg-3'

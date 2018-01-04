@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Jay Stockhausen
+  description: FFMPEG package install.
+  company: ""
+  license: "license (MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - development
+dependencies: []
